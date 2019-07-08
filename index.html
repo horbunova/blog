@@ -20,8 +20,12 @@ body {
   font-family: URW Chancery L, cursive;
   padding: 30px;
   text-align: center;
-  background: #1abc9c;
+  background: #C2DFFF;
   color: white;
+}
+
+.headerimg{
+  width: 100%;
 }
 
 /* Style the top navigation bar */
@@ -65,15 +69,21 @@ body {
   padding: 20px;
 }
 
-/* Fake image, just for this example */
-.fakeimg {
-  background-color: #aaa;
+.picture {
   width: 100%;
-  padding: 20px;
 }
+
+.picture img {
+    max-width: 100%;
+    max-height: 100%;
+    height: 400px;
+    width: 400px;
+}
+
 
 /* Footer */
 .footer {
+  width: 100%;
   padding: 20px;
   text-align: center;
   background: #ddd;
@@ -91,15 +101,14 @@ body {
 
 <!-- Header -->
 <div class="header">
-  <h1>Tamara's travel blog</h1>
-  <p>Enjoy the very moment</p>
+  <img class="headerimg" src="LOGO-BLUE-LIGHT-TAG.png">
 </div>
 
 <!-- Navigation Bar -->
 <div class="navbar">
-  <a href="#">дом ♥</a>
-  <a href="#">кто я</a>
-  <a href="#">связь</a>
+  <a href="index.html">дом ♥</a>
+  <a href="https://www.facebook.com/tamara.horbunova">кто я</a>
+  <a href="https://t.me/joinchat/DQg4PhNV4QtA6PUMJsoP5A">связь</a>
 </div>
 
 <!-- The flexible grid (content) -->
@@ -107,7 +116,7 @@ body {
   <div class="main">
     <h2>в этот раз Львов</h2>
     <h5>May 12, 2019</h5>
-    <div class="fakeimg" style="height:200px;"><img src="lviv.jpg" height="42" width="42"></div>
+    <div class="picture" style="height:400px;"><img src="lviv.jpg"></div>
     <p>особенная атмосфера города, его дух и колорит покорил моё сердечко в этот раз. никогда раньше не проникалась Львовом, но в этот раз все было иначе.
 <br><br>
 уличные музыканты, невероятно вкусная и красивая еда, правильная компания и количество радостных лиц на улицах города обеспечили мне заряд энергии, настрой работать ещё больше и ещё лучше!
@@ -116,12 +125,12 @@ body {
     <br>
     <h2>испанская неделя</h2>
     <h5>April 25, 2019</h5>
-    <div class="fakeimg" style="height:200px;"><img src="spain.jpg" height="42" width="42"></div>    <p>а прогулки под дождём, палящим солнцем, а неправильно построенные маршруты предательским гуглом, а войны с билетными автоматами в метро, а нервы по мелочам, а литры испанского вина и килограммы мидий за "спасибо"??? а что ж это за путешествие без приключений?</p>
+    <div class="picture" style="height:400px;"><img src="spain.jpg" ></div>    <p>а прогулки под дождём, палящим солнцем, а неправильно построенные маршруты предательским гуглом, а войны с билетными автоматами в метро, а нервы по мелочам, а литры испанского вина и килограммы мидий за "спасибо"??? а что ж это за путешествие без приключений?</p>
         <br>
         
     <h2>масёк, ты сможешь все</h2>
     <h5>December 1, 2019</h5>
-    <div class="fakeimg" style="height:200px;"><img src="portugal.jpg" height="42" width="42"></div>
+    <div class="picture" style="height:400px;"><img src="portugal.jpg" ></div>
     <p>люблю свою зиму - она солнечная, тёплая и местами даже жаркая.
 <br><br>
 люблю свою целеустремленность, ведь если чего-то искренне хочу, знаю, что добьюсь.
@@ -133,7 +142,7 @@ body {
 <br>
     <h2>на погнали в Хорватию автостопом?</h2>
     <h5>September 28, 2019</h5>
-    <div class="fakeimg" style="height:200px;"><img src="zagreb.jpg" height="42" width="42"></div>
+    <div class="picture" style="height:400px;"><img src="zagreb.jpg" ></div>
     <p>Привет, Загреб!
 <br><br>
 милый и уютный, просторный и свободный. Небольшие домашние магазинчики, почти игрушечные кафе, рестораны и бары, уютные парки — всё это делает Загреб весьма выделяющимся на фоне столиц других стран. даже сравнивая с Киевом - ну все равно, что юнит с ацептансом сравнивать;) 
@@ -145,7 +154,7 @@ body {
 <br>
     <h2>все же о главном</h2>
     <h5>September 3, 2019</h5>
-    <div class="fakeimg" style="height:200px;"><img src="split.jpg" height="42" width="42"></div>
+    <div class="picture" style="height:400px;"><img src="split.jpg" ></div>
     <p>я уже давно задумалась о целях своих поездок - когда не знаешь зачем, как-то сложнее сразу становится. смотреть на новые пейзажи? ну согласитесь, они же так схожи. собирать магнитики? ой, дальше. кушать? ладно, это было вполне очевидно:)
 <br><br>
 различать страны на вкус - вот чем бы я хотела заниматься. и дело вовсе не в еде - это не цель? это средство быть счастливым в той атмосфере, колорите, культуре! 
@@ -158,13 +167,13 @@ body {
   <div class="side">
     <h2>Кто я</h2>
     <h5>сначала фото</h5>
-    <div class="fakeimg" style="height:200px;"><img src="me.jpg" height="42" width="42"></div>
-    <p>вечный двигатель - вдохновляю сама себя</p>
-    <h3>больше хлеба и зрелищ</h3>
-    <p>Lorem ipsum dolor sit ame.</p>
-    <div class="fakeimg" style="height:60px;"><img src="instalogo.png" height="42" width="42"></div><br>
-    <div class="fakeimg" style="height:60px;"><img src="fblogo.png" height="42" width="42"></div><br>
-    
+    <div class="mypicture" style="height:200px;"><img src="me.jpg" height="200" width="200"></div>
+    <p><i>вечный двигатель - вдохновляю сама себя
+      <br><br>
+      люблю писать от души и для души. а еще не представляю себя на одном месте дольше, чем несколько месяцев, жизнь постоянно втягивает меня в какие-то свои авантюры. или это я ее?
+      <br><br>
+      да впрочем, какая разница, если мне это нравится:)
+    </i></p>
 </div>
 
 <!-- Footer -->
